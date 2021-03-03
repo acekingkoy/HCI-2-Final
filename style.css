@@ -1,0 +1,49 @@
+*{
+    left: 0%;
+    font-family: lemon milk;
+    position: relative;
+}
+body{
+    margin: auto;
+    background-color: rgb(195, 236, 198);
+}
+a{
+
+    text-decoration: none;
+    color: inherit;
+}
+.heading{
+    margin: auto;
+    position: relative;
+    text-align: center;
+background-color: rgb(78, 109, 75);
+width: 80vw;
+}
+.heading-contents{
+    width: 100%;
+    
+}
+.actions{
+    display: block;
+    background-color: rgb(185, 177, 144);
+    height:auto;
+}
+.actions ul{
+    position: relative;
+    left: -2.5vw;
+    list-style-type: none;
+}
+.actions ul li{
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+.actions ul li:hover{
+    background-color: rgb(26, 24, 19);
+    transition-duration: .4s;
+    mix-blend-mode: luminosity;
+    color: rgb(221, 198, 169);
+}
+#frame{
+    height: 60vh;
+}

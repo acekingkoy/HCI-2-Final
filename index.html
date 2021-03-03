@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Ceres</title>
+    <link rel="stylesheet" href="style.css";>
+</head>
+<body>
+    <div class="heading">
+        <div class="heading-contents">
+            <br>
+            <h1>Project: Ceres</h1>
+            <br>
+            <div class="actions"> 
+                    <ul>
+                        <li id="Home"><a onclick="medicines('Home')">Home</a></li>
+                        <li id="Menu"><a onclick="medicines('Menu')">Menu</a></li>
+                        <li id="Feed"><a onclick="medicines('Feed')">Feed</a></li>
+                        <li id="Medicines"><a onclick="medicines('Medicines')">Medicines</a></li>
+                    </ul>
+                    <br>
+                    <div id="frame"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function medicines(li){
+           let listItem =  document.getElementById(li);
+           let listItems = ['Medicines','Feed','Menu','Home'];
+           switch(li){
+               case 'Medicines':
+               document.getElementById('frame').innerHTML =`<h1>This is the ${li} tab</h1>`;
+               listItems.forEach((object) => {
+                   if(object == li){
+                    document.getElementById(object).style.backgroundColor = '#80fd80';
+                   document.getElementById(object).style.color = '#0c330c';
+                   }
+                   else{
+                   document.getElementById(object).style.backgroundColor = 'rgba(0,0,0,.1)';
+                   document.getElementById(object).style.color = '#080';
+                   }
+                });
+               break;
+
+               case 'Feed':
+               document.getElementById('frame').innerHTML =`<h1>This is the ${li} tab</h1>`;
+               listItems.forEach((object) => {
+                   if(object == li){
+                    document.getElementById(object).style.backgroundColor = '#80fd80';
+                   document.getElementById(object).style.color = '#0c330c';
+                   }
+                   else{
+                   document.getElementById(object).style.backgroundColor = 'rgba(0,0,0,.1)';
+                   document.getElementById(object).style.color = '#080';
+                   }
+                });
+               break;
+
+               case 'Menu':
+               document.getElementById('frame').innerHTML =`<h1>This is the ${li} tab</h1>`;
+               listItems.forEach((object) => {
+                   if(object == li){
+                    document.getElementById(object).style.backgroundColor = '#80fd80';
+                   document.getElementById(object).style.color = '#0c330c';
+                   }
+                   else{
+                   document.getElementById(object).style.backgroundColor = 'rgba(0,0,0,.1)';
+                   document.getElementById(object).style.color = '#080';
+                   }
+                });
+               break;
+
+               case 'Home':
+               document.getElementById('frame').innerHTML =`<h1>This is the ${li} tab</h1>`;
+               listItems.forEach((object) => {
+                   if(object == li){
+                    document.getElementById(object).style.backgroundColor = '#80fd80';
+                   document.getElementById(object).style.color = '#0c330c';
+                   }
+                   else{
+                   document.getElementById(object).style.backgroundColor = 'rgba(0,0,0,.1)';
+                   document.getElementById(object).style.color = '#080';
+                   }
+                });
+               break;
+            
+           }
+           
+        }
+
+        </script>
+</body>
+</html>

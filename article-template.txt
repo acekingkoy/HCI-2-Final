@@ -1,0 +1,9 @@
+<h2>  (insert article title here)  </h2>
+
+<p> (insert article content here) </p>
+
+
+
+ <!-- basic template ra ni siya guys -->
+  <!-- feel free to insert pictures or add more p elements -->
+   <!-- happy writing! - Jan -->
