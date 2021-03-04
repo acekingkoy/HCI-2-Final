@@ -1,0 +1,9 @@
+<h2>  This is only a sample article </h2>
+
+<p> This is the sample article's paragraph</p>
+
+
+
+ <!-- basic template ra ni siya guys -->
+  <!-- feel free to insert pictures or add more p elements -->
+   <!-- happy writing! - Jan -->
